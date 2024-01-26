@@ -15,10 +15,6 @@ input[type="search"]::-webkit-search-cancel-button {
    font-family: 'myfont';
    src: url('JosefinSans-VariableFont_wght.ttf') format('truetype'); 
 }
-@font-face {
-    font-family: 'myfont3';
-    src: url('filefont34.ttf') format('truetype'); 
- }
 
 
 html, body {
@@ -48,7 +44,7 @@ form{
 
 label{
     display: inline-block;
-    font-family: 'myfont3';
+    font-family: 'myfont';
 }
 
 form input:focus{
@@ -85,7 +81,7 @@ input:invalid{
     .data .para{
         font-size: x-large;
         font-weight: bold;
-        font-family: 'myfont3';
+        font-family: 'myfont';
         font-style: italic;
         margin-left: 7vw;
         margin-right: 25vw;
@@ -94,7 +90,7 @@ input:invalid{
     }
     
     form p{
-        font-family: 'myfont3';
+        font-family: 'myfont';
         font-weight: bold;
         font-size: larger;
         padding-left: 20px;
@@ -124,13 +120,13 @@ input:invalid{
         border-radius: 10px;
         border: none;
         background: rgb(218, 132, 218);
-        font-family: 'myfont3';
+        font-family: 'myfont';
         font-size: 1rem;
     }
     
     .abutton p{
         margin-top: 30px;
-        font-family: 'myfont3';
+        font-family: 'myfont';
         font-weight: bold;
     }
     
